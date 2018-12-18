@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # Node
-.node_modules
+.React/node_modules/
