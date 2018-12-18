@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
 import { HashRouter as Router, Route } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
+import logo from '../static/images/logo.svg';
+
+// Style
+import "normalize.css";
+import "bulma/css/bulma.css";
+import "../static/css/App.css";
+import "../static/css/Animate.css";
 
 class Base extends Component {
   render() {
