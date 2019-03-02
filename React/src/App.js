@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { hot } from "react-hot-loader";
 import { HashRouter as Router, Route } from "react-router-dom";
-import logo from '../static/images/logo.svg';
+// import logo from '../static/images/logo.svg';
 
 // Style
 import "normalize.css";
@@ -35,9 +35,7 @@ class App extends Component {
             <div className="section">
               <div className="container">
                 <Route exact path="/" component={Base} />
-                {/* <Route path="/stuff" component={C2} /> */}
-                {/* <Route path="/game" component={Game} /> */}
-                {/* <Route path="/db" component={Connector} /> */}
+
               </div>
             </div>
           </div>
